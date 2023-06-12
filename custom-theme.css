@@ -7,7 +7,8 @@
 /* @import url("https://crearts-community.github.io/Settings-Icons/clients/settings-icons.theme.css"); */ /* No work on vencord */
 
 body {
-  --wl-main-color: #fff
+  --wl-main-color: #0f0
+  --wl-main-color-hue: 0;
 }
 
 /* radial status */
@@ -42,7 +43,7 @@ body {
 /* variables */
 :root {
   --blurple-recolor: var(--wl-main-color);
-  --background: rgb(0, 0, 0);
+  --background: var(--custom-theme-background);
   --hover: rgba(79, 84, 92, 0.25);
   --selected1: rgba(112, 135, 215, 0.1);
   --selected2: rgba(112, 135, 215, 0.18);
@@ -81,6 +82,7 @@ body {
 /* recoloring */
 .theme-dark,
 .theme-dark .theme-light {
+
   --background-primary: rgb(24, 28, 37);
   --background-secondary: rgb(20, 23, 31);
   --background-secondary-alt: var(--background-tertiary);
@@ -95,56 +97,56 @@ body {
 
 /* blurple recoloring */
   --brand-experiment: var(--blurple-recolor) !important;
-  --brand-experiment-100: hsl(200, 96.2%, 96.2%) !important;
-  --brand-experiment-130: hsl(200, 92.4%, 92.4%) !important;
-  --brand-experiment-160: hsl(200, 88.6%, 88.6%) !important;
-  --brand-experiment-200: hsl(200, 84.8%, 84.8%) !important;
-  --brand-experiment-230: hsl(200, 81.0%, 81.0%) !important;
-  --brand-experiment-260: hsl(200, 77.2%, 77.2%) !important;
-  --brand-experiment-300: hsl(200, 73.4%, 73.4%) !important;
-  --brand-experiment-330: hsl(200, 69.6%, 69.6%) !important;
-  --brand-experiment-360: hsl(200, 65.8%, 65.8%) !important;
-  --brand-experiment-400: hsl(200, 62.0%, 62.0%) !important;
-  --brand-experiment-430: hsl(200, 58.2%, 58.2%) !important;
-  --brand-experiment-460: hsl(200, 54.4%, 54.4%) !important;
-  --brand-experiment-500: hsl(200, 50.6%, 50.6%) !important;
-  --brand-experiment-530: hsl(200, 46.8%, 46.8%) !important;
-  --brand-experiment-560: hsl(200, 43.0%, 43.0%) !important;
-  --brand-experiment-600: hsl(200, 39.2%, 39.2%) !important;
-  --brand-experiment-630: hsl(200, 35.4%, 35.4%) !important;
-  --brand-experiment-660: hsl(200, 31.6%, 31.6%) !important;
-  --brand-experiment-700: hsl(200, 27.8%, 27.8%) !important;
-  --brand-experiment-730: hsl(200, 24.0%, 24.0%) !important;
-  --brand-experiment-760: hsl(200, 20.2%, 20.2%) !important;
-  --brand-experiment-800: hsl(200, 16.4%, 16.4%) !important;
-  --brand-experiment-830: hsl(200, 12.6%, 12.6%) !important;
-  --brand-experiment-860: hsl(200, 8.8%, 8.8%) !important;
-  --brand-experiment-900: hsl(200, 5.0%, 5.0%) !important;
-  --brand-100: hsl(200, 96.2%, 96.2%) !important;
-  --brand-130: hsl(200, 92.4%, 92.4%) !important;
-  --brand-160: hsl(200, 88.6%, 88.6%) !important;
-  --brand-200: hsl(200, 84.8%, 84.8%) !important;
-  --brand-230: hsl(200, 81.0%, 81.0%) !important;
-  --brand-260: hsl(200, 77.2%, 77.2%) !important;
-  --brand-300: hsl(200, 73.4%, 73.4%) !important;
-  --brand-330: hsl(200, 69.6%, 69.6%) !important;
-  --brand-360: hsl(200, 65.8%, 65.8%) !important;
-  --brand-400: hsl(200, 62.0%, 62.0%) !important;
-  --brand-430: hsl(200, 58.2%, 58.2%) !important;
-  --brand-460: hsl(200, 54.4%, 54.4%) !important;
-  --brand-500: hsl(200, 50.6%, 50.6%) !important;
-  --brand-530: hsl(200, 46.8%, 46.8%) !important;
-  --brand-560: hsl(200, 43.0%, 43.0%) !important;
-  --brand-600: hsl(200, 39.2%, 39.2%) !important;
-  --brand-630: hsl(200, 35.4%, 35.4%) !important;
-  --brand-660: hsl(200, 31.6%, 31.6%) !important;
-  --brand-700: hsl(200, 27.8%, 27.8%) !important;
-  --brand-730: hsl(200, 24.0%, 24.0%) !important;
-  --brand-760: hsl(200, 20.2%, 20.2%) !important;
-  --brand-800: hsl(200, 16.4%, 16.4%) !important;
-  --brand-830: hsl(200, 12.6%, 12.6%) !important;
-  --brand-860: hsl(200, 8.8%, 8.8%) !important;
-  --brand-900: hsl(200, 5.0%, 5.0%) !important;
+  --brand-experiment-100: hsl(var(--wl-main-color-hue), 96.2%, 96.2%) !important;
+  --brand-experiment-130: hsl(var(--wl-main-color-hue), 92.4%, 92.4%) !important;
+  --brand-experiment-160: hsl(var(--wl-main-color-hue), 88.6%, 88.6%) !important;
+  --brand-experiment-200: hsl(var(--wl-main-color-hue), 84.8%, 84.8%) !important;
+  --brand-experiment-230: hsl(var(--wl-main-color-hue), 81.0%, 81.0%) !important;
+  --brand-experiment-260: hsl(var(--wl-main-color-hue), 77.2%, 77.2%) !important;
+  --brand-experiment-300: hsl(var(--wl-main-color-hue), 73.4%, 73.4%) !important;
+  --brand-experiment-330: hsl(var(--wl-main-color-hue), 69.6%, 69.6%) !important;
+  --brand-experiment-360: hsl(var(--wl-main-color-hue), 65.8%, 65.8%) !important;
+  --brand-experiment-400: hsl(var(--wl-main-color-hue), 62.0%, 62.0%) !important;
+  --brand-experiment-430: hsl(var(--wl-main-color-hue), 58.2%, 58.2%) !important;
+  --brand-experiment-460: hsl(var(--wl-main-color-hue), 54.4%, 54.4%) !important;
+  --brand-experiment-500: hsl(var(--wl-main-color-hue), 50.6%, 50.6%) !important;
+  --brand-experiment-530: hsl(var(--wl-main-color-hue), 46.8%, 46.8%) !important;
+  --brand-experiment-560: hsl(var(--wl-main-color-hue), 43.0%, 43.0%) !important;
+  --brand-experiment-600: hsl(var(--wl-main-color-hue), 39.2%, 39.2%) !important;
+  --brand-experiment-630: hsl(var(--wl-main-color-hue), 35.4%, 35.4%) !important;
+  --brand-experiment-660: hsl(var(--wl-main-color-hue), 31.6%, 31.6%) !important;
+  --brand-experiment-700: hsl(var(--wl-main-color-hue), 27.8%, 27.8%) !important;
+  --brand-experiment-730: hsl(var(--wl-main-color-hue), 24.0%, 24.0%) !important;
+  --brand-experiment-760: hsl(var(--wl-main-color-hue), 20.2%, 20.2%) !important;
+  --brand-experiment-800: hsl(var(--wl-main-color-hue), 16.4%, 16.4%) !important;
+  --brand-experiment-830: hsl(var(--wl-main-color-hue), 12.6%, 12.6%) !important;
+  --brand-experiment-860: hsl(var(--wl-main-color-hue), 8.8%, 8.8%) !important;
+  --brand-experiment-900: hsl(var(--wl-main-color-hue), 5.0%, 5.0%) !important;
+  --brand-100: hsl(var(--wl-main-color-hue), 96.2%, 96.2%) !important;
+  --brand-130: hsl(var(--wl-main-color-hue), 92.4%, 92.4%) !important;
+  --brand-160: hsl(var(--wl-main-color-hue), 88.6%, 88.6%) !important;
+  --brand-200: hsl(var(--wl-main-color-hue, 84.8%, 84.8%) !important;
+  --brand-230: hsl(var(--wl-main-color-hue, 81.0%, 81.0%) !important;
+  --brand-260: hsl(var(--wl-main-color-hue, 77.2%, 77.2%) !important;
+  --brand-300: hsl(var(--wl-main-color-hue, 73.4%, 73.4%) !important;
+  --brand-330: hsl(var(--wl-main-color-hue, 69.6%, 69.6%) !important;
+  --brand-360: hsl(var(--wl-main-color-hue, 65.8%, 65.8%) !important;
+  --brand-400: hsl(var(--wl-main-color-hue, 62.0%, 62.0%) !important;
+  --brand-430: hsl(var(--wl-main-color-hue, 58.2%, 58.2%) !important;
+  --brand-460: hsl(var(--wl-main-color-hue, 54.4%, 54.4%) !important;
+  --brand-500: hsl(var(--wl-main-color-hue, 50.6%, 50.6%) !important;
+  --brand-530: hsl(var(--wl-main-color-hue, 46.8%, 46.8%) !important;
+  --brand-560: hsl(var(--wl-main-color-hue, 43.0%, 43.0%) !important;
+  --brand-600: hsl(var(--wl-main-color-hue, 39.2%, 39.2%) !important;
+  --brand-630: hsl(var(--wl-main-color-hue, 35.4%, 35.4%) !important;
+  --brand-660: hsl(var(--wl-main-color-hue, 31.6%, 31.6%) !important;
+  --brand-700: hsl(var(--wl-main-color-hue, 27.8%, 27.8%) !important;
+  --brand-730: hsl(var(--wl-main-color-hue, 24.0%, 24.0%) !important;
+  --brand-760: hsl(var(--wl-main-color-hue, 20.2%, 20.2%) !important;
+  --brand-800: hsl(var(--wl-main-color-hue, 16.4%, 16.4%) !important;
+  --brand-830: hsl(var(--wl-main-color-hue, 12.6%, 12.6%) !important;
+  --brand-860: hsl(var(--wl-main-color-hue, 8.8%, 8.8%) !important;
+  --brand-900: hsl(var(--wl-main-color-hue, 5.0%, 5.0%) !important;
 }
 
 #app-mount .container-KM8BU6, #app-mount .reactors-1VXca7 .footer-VCsJQY.hasSpoilers-33hwf_,
