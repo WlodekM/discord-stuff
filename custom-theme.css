@@ -51,10 +51,10 @@ body {
   --radius: 10px;
   --avatar-radius: 30%;
 
-  --blurple1: color-mix(in rgba,var(--wl-main-color),#0000 60%);/* rgba(97, 179, 222, 0.4); */
-  --blurple2: color-mix(in rgba,var(--wl-main-color),#0000 80%);/* rgba(97, 179, 222, 0.2); */
-  --blurple3: color-mix(in rgba,var(--wl-main-color),#0000 90%);/* rgba(97, 179, 222, 0.1); */
-  --blurple4: color-mix(in rgba,var(--wl-main-color),#0000 95%);/* rgba(97, 179, 222, 0.05); */
+  --blurple1: color-mix(in srgb,var(--wl-main-color),#0000 60%);/* rgba(97, 179, 222, 0.4); */
+  --blurple2: color-mix(in srgb,var(--wl-main-color),#0000 80%);/* rgba(97, 179, 222, 0.2); */
+  --blurple3: color-mix(in srgb,var(--wl-main-color),#0000 90%);/* rgba(97, 179, 222, 0.1); */
+  --blurple4: color-mix(in srgb,var(--wl-main-color),#0000 95%);/* rgba(97, 179, 222, 0.05); */
 
   --red1: rgba(240, 71, 71, 0.6);
   --red2: rgba(240, 71, 71, 0.15);
