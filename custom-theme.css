@@ -6,6 +6,10 @@
 @import url("https://hyblocker.github.io/pixelcord/modules/functions/channel_icons.css");
 /* @import url("https://crearts-community.github.io/Settings-Icons/clients/settings-icons.theme.css"); */ /* No work on vencord */
 
+body {
+  --wl-main-color: #fff
+}
+
 /* radial status */
 :root {
   --rs-small-spacing: 1px;
@@ -37,7 +41,7 @@
 
 /* variables */
 :root {
-  --blurple-recolor: hsl(200, 65%, 65%);
+  --blurple-recolor: var(--wl-main-color);
   --background: rgb(0, 0, 0);
   --hover: rgba(79, 84, 92, 0.25);
   --selected1: rgba(112, 135, 215, 0.1);
@@ -47,10 +51,10 @@
   --radius: 10px;
   --avatar-radius: 30%;
 
-  --blurple1: rgba(97, 179, 222, 0.4);
-  --blurple2: rgba(97, 179, 222, 0.2);
-  --blurple3: rgba(97, 179, 222, 0.1);
-  --blurple4: rgba(97, 179, 222, 0.05);
+  --blurple1: color-mix(in rgba,var(--wl-main-color),#0000 60%);/* rgba(97, 179, 222, 0.4); */
+  --blurple2: color-mix(in rgba,var(--wl-main-color),#0000 80%);/* rgba(97, 179, 222, 0.2); */
+  --blurple3: color-mix(in rgba,var(--wl-main-color),#0000 90%);/* rgba(97, 179, 222, 0.1); */
+  --blurple4: color-mix(in rgba,var(--wl-main-color),#0000 95%);/* rgba(97, 179, 222, 0.05); */
 
   --red1: rgba(240, 71, 71, 0.6);
   --red2: rgba(240, 71, 71, 0.15);
