@@ -6,7 +6,7 @@
 @import url("https://hyblocker.github.io/pixelcord/modules/functions/channel_icons.css");
 /* @import url("https://crearts-community.github.io/Settings-Icons/clients/settings-icons.theme.css"); */ /* No work on vencord */
 
-body {
+:root {
   --wl-main-color: #0f0;
   --wl-main-color-hue: 0;
 }
