@@ -6,10 +6,6 @@
 @import url("https://hyblocker.github.io/pixelcord/modules/functions/channel_icons.css");
 /* @import url("https://crearts-community.github.io/Settings-Icons/clients/settings-icons.theme.css"); */ /* No work on vencord */
 
-:root {
-  --wl-main-color: #0f0;
-  --wl-main-color-hue: 0;
-}
 
 /* radial status */
 :root {
@@ -82,6 +78,8 @@
 /* recoloring */
 .theme-dark,
 .theme-dark .theme-light {
+  --wl-main-color: #0f0;
+  --wl-main-color-hue: 120;
 
   --background-primary: rgb(24, 28, 37);
   --background-secondary: rgb(20, 23, 31);
@@ -125,28 +123,28 @@
   --brand-100: hsl(var(--wl-main-color-hue), 96.2%, 96.2%) !important;
   --brand-130: hsl(var(--wl-main-color-hue), 92.4%, 92.4%) !important;
   --brand-160: hsl(var(--wl-main-color-hue), 88.6%, 88.6%) !important;
-  --brand-200: hsl(var(--wl-main-color-hue, 84.8%, 84.8%) !important;
-  --brand-230: hsl(var(--wl-main-color-hue, 81.0%, 81.0%) !important;
-  --brand-260: hsl(var(--wl-main-color-hue, 77.2%, 77.2%) !important;
-  --brand-300: hsl(var(--wl-main-color-hue, 73.4%, 73.4%) !important;
-  --brand-330: hsl(var(--wl-main-color-hue, 69.6%, 69.6%) !important;
-  --brand-360: hsl(var(--wl-main-color-hue, 65.8%, 65.8%) !important;
-  --brand-400: hsl(var(--wl-main-color-hue, 62.0%, 62.0%) !important;
-  --brand-430: hsl(var(--wl-main-color-hue, 58.2%, 58.2%) !important;
-  --brand-460: hsl(var(--wl-main-color-hue, 54.4%, 54.4%) !important;
-  --brand-500: hsl(var(--wl-main-color-hue, 50.6%, 50.6%) !important;
-  --brand-530: hsl(var(--wl-main-color-hue, 46.8%, 46.8%) !important;
-  --brand-560: hsl(var(--wl-main-color-hue, 43.0%, 43.0%) !important;
-  --brand-600: hsl(var(--wl-main-color-hue, 39.2%, 39.2%) !important;
-  --brand-630: hsl(var(--wl-main-color-hue, 35.4%, 35.4%) !important;
-  --brand-660: hsl(var(--wl-main-color-hue, 31.6%, 31.6%) !important;
-  --brand-700: hsl(var(--wl-main-color-hue, 27.8%, 27.8%) !important;
-  --brand-730: hsl(var(--wl-main-color-hue, 24.0%, 24.0%) !important;
-  --brand-760: hsl(var(--wl-main-color-hue, 20.2%, 20.2%) !important;
-  --brand-800: hsl(var(--wl-main-color-hue, 16.4%, 16.4%) !important;
-  --brand-830: hsl(var(--wl-main-color-hue, 12.6%, 12.6%) !important;
-  --brand-860: hsl(var(--wl-main-color-hue, 8.8%, 8.8%) !important;
-  --brand-900: hsl(var(--wl-main-color-hue, 5.0%, 5.0%) !important;
+  --brand-200: hsl(var(--wl-main-color-hue), 84.8%, 84.8%) !important;
+  --brand-230: hsl(var(--wl-main-color-hue), 81.0%, 81.0%) !important;
+  --brand-260: hsl(var(--wl-main-color-hue), 77.2%, 77.2%) !important;
+  --brand-300: hsl(var(--wl-main-color-hue), 73.4%, 73.4%) !important;
+  --brand-330: hsl(var(--wl-main-color-hue), 69.6%, 69.6%) !important;
+  --brand-360: hsl(var(--wl-main-color-hue), 65.8%, 65.8%) !important;
+  --brand-400: hsl(var(--wl-main-color-hue), 62.0%, 62.0%) !important;
+  --brand-430: hsl(var(--wl-main-color-hue), 58.2%, 58.2%) !important;
+  --brand-460: hsl(var(--wl-main-color-hue), 54.4%, 54.4%) !important;
+  --brand-500: hsl(var(--wl-main-color-hue), 50.6%, 50.6%) !important;
+  --brand-530: hsl(var(--wl-main-color-hue), 46.8%, 46.8%) !important;
+  --brand-560: hsl(var(--wl-main-color-hue), 43.0%, 43.0%) !important;
+  --brand-600: hsl(var(--wl-main-color-hue), 39.2%, 39.2%) !important;
+  --brand-630: hsl(var(--wl-main-color-hue), 35.4%, 35.4%) !important;
+  --brand-660: hsl(var(--wl-main-color-hue), 31.6%, 31.6%) !important;
+  --brand-700: hsl(var(--wl-main-color-hue), 27.8%, 27.8%) !important;
+  --brand-730: hsl(var(--wl-main-color-hue), 24.0%, 24.0%) !important;
+  --brand-760: hsl(var(--wl-main-color-hue), 20.2%, 20.2%) !important;
+  --brand-800: hsl(var(--wl-main-color-hue), 16.4%, 16.4%) !important;
+  --brand-830: hsl(var(--wl-main-color-hue), 12.6%, 12.6%) !important;
+  --brand-860: hsl(var(--wl-main-color-hue), 8.8%, 8.8%) !important;
+  --brand-900: hsl(var(--wl-main-color-hue), 5.0%, 5.0%) !important;
 }
 
 #app-mount .container-KM8BU6, #app-mount .reactors-1VXca7 .footer-VCsJQY.hasSpoilers-33hwf_,
