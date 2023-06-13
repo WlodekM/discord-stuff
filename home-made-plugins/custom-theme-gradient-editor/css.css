@@ -1,0 +1,28 @@
+#gradiet {
+    z-index: 999;
+    position: relative;
+    color: white;
+}
+* { margin: 0; }
+
+#panel {
+    z-index: 999;
+    position: fixed;
+    background: rgb(0 0 0 / 50%);
+    color: #fff;
+    height: 75px;
+    width: 100%;
+    bottom: 100vh;
+    transition: bottom 0.4s ease-in-out;
+    -webkit-transition: bottom 0.4s ease-in-out;
+}
+
+#panel:hover {
+  bottom: calc(100vh - 75px);
+}
+
+#panelCaller {
+    position: relative;
+    top: 75px;
+    background: rgb(0 0 0 / 50%);
+}
