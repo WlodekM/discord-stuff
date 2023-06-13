@@ -81,10 +81,10 @@
   --wl-main-color: #0f0;
   --wl-main-color-hue: 120;
 
-  --background-primary: rgb(24, 28, 37);
-  --background-secondary: rgb(20, 23, 31);
+  --background-primary: color-mix(in srgb,var(--wl-main-color),#000 75%);
+  --background-secondary: color-mix(in srgb,var(--wl-main-color),#000 80%);
   --background-secondary-alt: var(--background-tertiary);
-  --background-tertiary: rgb(12, 14, 19);
+  --background-tertiary: color-mix(in srgb,var(--wl-main-color),#000 90%);
   --background-accent: var(--background-tertiary);
   --background-floating: var(--background-tertiary);
   --background-modifier-hover: rgba(255, 255, 255, 0.01);
