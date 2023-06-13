@@ -4298,3 +4298,10 @@ span[data-tag="vc mod"] {
 .ysink_stain_card .ysink_stain_tmedia * {
   border-radius: var(--radius);
 }
+.newMessagesBar-1hF-9G {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    margin: 0px -16px;
+}
