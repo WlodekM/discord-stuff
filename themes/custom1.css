@@ -39,7 +39,7 @@
 /* variables */
 :root {
   --blurple-recolor: var(--wl-main-color);
-  --background: var(--custom-theme-background);
+  --background: color-mix(in srgb,var(--custom-theme-background),#000 25%);
   --hover: rgba(79, 84, 92, 0.25);
   --selected1: rgba(112, 135, 215, 0.1);
   --selected2: rgba(112, 135, 215, 0.18);
