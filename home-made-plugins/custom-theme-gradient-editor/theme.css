@@ -39,7 +39,7 @@
 /* variables */
 :root {
   --blurple-recolor: var(--wl-main-color);
-  --background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), var(--custom-theme-background);
+  --background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85) ), var(--custom-theme-background);
   --hover: rgba(79, 84, 92, 0.25);
   --selected1: rgba(112, 135, 215, 0.1);
   --selected2: rgba(112, 135, 215, 0.18);
@@ -80,6 +80,10 @@
 .theme-dark .theme-light {
   --wl-main-color: #0f0;
   --wl-main-color-hue: 120;
+}
+/* recoloring */
+.theme-dark,
+.theme-dark .theme-light {
 
   --background-primary: color-mix(in srgb,var(--wl-main-color),#000 75%);
   --background-secondary: color-mix(in srgb,var(--wl-main-color),#000 80%);
