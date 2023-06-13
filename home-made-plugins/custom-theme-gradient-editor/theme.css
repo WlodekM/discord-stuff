@@ -75,12 +75,12 @@
   box-shadow: none;
 }
 
-/* recoloring */
+/*  recoloring 
 .theme-dark,
 .theme-dark .theme-light {
   --wl-main-color: #0f0;
   --wl-main-color-hue: 120;
-}
+} */
 /* recoloring */
 .theme-dark,
 .theme-dark .theme-light {
