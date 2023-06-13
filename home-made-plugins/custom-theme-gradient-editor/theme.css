@@ -4,7 +4,6 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://leeprky.github.io/snippits/discoloured.css");
 @import url("https://hyblocker.github.io/pixelcord/modules/functions/channel_icons.css");
-/* @import url("https://crearts-community.github.io/Settings-Icons/clients/settings-icons.theme.css"); */ /* No work on vencord */
 
 
 /* radial status */
@@ -60,9 +59,7 @@
 }
 
 /* font */
-* {
-  font-family: "Quicksand";
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
 
 /* background */
 [class*="bg-"]{
