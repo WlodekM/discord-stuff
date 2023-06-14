@@ -2274,8 +2274,8 @@ display: none;
 
 /* smaller mentions */
 #app-mount .mention {
-  color: var(--blurple-recolor);
-  background-color: var(--blurple3);
+/*   color: var(--blurple-recolor); NO!
+  background-color: var(--blurple3); */
   border-radius: 6px;
   font-size: 0.9rem;
   transition: background-color 0.1s;
