@@ -3239,7 +3239,6 @@ img[class*="avatar"] {
 }
 .layer-86YKbF ~ .layer-86YKbF {
   border-radius: var(--radius);
-  margin: 10vh 14vw;
   min-width: 0;
   z-index: 999;
 }
